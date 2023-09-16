@@ -1,0 +1,39 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+
+.quiz-container{
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+h1{
+    text-align: center;
+}
+
+li:hover{
+    background-color: #f5f5fa;
+}
+
+body{
+    padding: 50px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.ques{
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width:768px){
+    .quiz-container{
+        width: 90%;
+        font-size: 18px;
+    }
+}
